@@ -1,0 +1,30 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: Main.aux
+A level-1 auxiliary file: remerciement.aux
+A level-1 auxiliary file: resumer.aux
+The style file: dinat.bst
+Database file #1: Biblio.bib
+I was expecting a `,' or a `}'---line 1041 of file Biblio.bib
+ :  
+ :  url       = "http://www-users.math.umn.edu/~arnold/disasters/ariane5rep.html"
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--entry type for "pardes2020iot" isn't style-file defined
+--line 1376 of file Biblio.bib
+Warning--entry type for "statista2020iot" isn't style-file defined
+--line 1395 of file Biblio.bib
+Warning--entry type for "locqueneux2015domotique" isn't style-file defined
+--line 1426 of file Biblio.bib
+Warning--entry type for "krigman2018agriculture" isn't style-file defined
+--line 1433 of file Biblio.bib
+Warning--I didn't find a database entry for "ref15"
+Warning--I didn't find a database entry for "clearfield2013rethinkingsiot"
+Warning--I didn't find a database entry for "andy2013hackers"
+Warning--I didn't find a database entry for "boyle2010proof"
+Warning--I didn't find a database entry for "kasperski201krack"
+Warning--I didn't find a database entry for "musonda2018iot"
+Warning--I didn't find a database entry for "karygiannis2007guidelines"
+Warning--I didn't find a database entry for "ranger2020iot"
+Warning--I didn't find a database entry for "steinberg2014spying"
+Warning--empty school in challal2012securite
+Warning--there's no year in refddos
+(There was 1 error message)

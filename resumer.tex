@@ -1,0 +1,50 @@
+\pagenumbering{gobble}
+\chapter*{}
+\begin{changemargin}{3mm}{0cm}
+    \begin{minipage}[c]{0.96\columnwidth}        
+
+        \selectlanguage{french}
+        
+        {\LARGE\textbf{Résumé}}
+        \vskip1mm
+            \begingroup
+                La vérification formelle constitue une étape indispensable pour garantir le bon fonctionnement des systèmes complexes et critiques. Le model checking est une technique efficace pour vérifier des propriétés sur des systèmes décrit avec un modèle formel. Ce pendant, cette méthode de vérification souffre d'un problème majeur engendré par l'explosion combinatoire de l'espace d'états à explorer  dans un temps raisonnable.
+                \\\\
+                Pour merdier a ce problème, la distribution de l'espace d'états est la solution la plus rependus  en vue de tirer profit de la quantité de mémoire et de la puissance de calcul disponibles sur chaque machine. Par contre aboutir à une meilleur distribution pour accélérer la vérification s'avère être difficile a réalisé.\\
+                
+                Notre travail réside dans la distribution de l'espace d'états, pour établir un compromis entre l’équilibrage de charge des différentes machines et la minimisation du taux de communications. Pour cela, nous proposons une nouvelle approche de distribution en avale de l'espace d'états basée la théorie de jeux et l'analyse des états. L’approche proposée vise à analyser l'espace d’états tout en extrayant les informations pertinentes sur les états. Ensuite, redistribuer les états suite à leurs pertinences soit migrés définitivement soit dupliqués sur d’autres machines, afin de minimiser le nombre de communications entre les machines. Cela est fait grâce à une stratégie comportementale de la théorie de jeux au quelle les machines cherchent à optimiser leur taux de communications tout en maintenant l'équilibrage de charge entre les machines à l’aide de seuils prédéfinis pour chaque machine. Ceci permet à une application d'optimiser ses comportements en cumulant ses expériences d’exécutions, ainsi grâce à l'utilisation des bases de données orientés graphes, les prochaines exécutions de l’application seront fait à partir des améliorations gagnées précédemment.
+            \endgroup
+        \vskip1mm
+        {\textbf{Mots clés : }
+            \begingroup
+                Réseau de Petri, Calcul parallèle, Structure de Kripke Distribué, Model checking distribué, Distribution des espaces d'états, 
+                Génération de l’espace d’états, Méthodes d’optimisation, Théorie de jeux.
+            \endgroup
+        }
+    \end{minipage}    
+\end{changemargin}
+\break
+        
+\pagenumbering{gobble}
+\chapter*{}
+\begin{changemargin}{3mm}{0cm}
+	\begin{minipage}[c]{0.96\columnwidth} 
+		\selectlanguage{english}
+		{\LARGE\textbf{Abstract}}
+		\vskip1mm
+		\begingroup
+		Formal verification is an essential step for ensuring the proper functioning of complex and critical systems. Model checking is an effective technique for checking properties on systems described with a formal model. However, this verification method suffers from a major problem caused by the combinatorial explosion of the states space to be explored in a reasonable time.
+		\\
+		
+		To solve this problem, the states space distribution is the most common solution to take advantage of the amount of memory and computing power available on each machine. On the other hand, it is difficult to obtain a better distribution to accelerate the calculation of the verification.
+		\\\\
+		Our work lies in the distribution of states space, to establish a compromise between the load balancing of the different machines and the minimization of the communication rate. For this, we propose a new distribution approach in downstream of the states space based game theory and states analysis. The proposed approach aims to analyze the states space while extracting relevant state information. Then, redistribute the states following their relevance either migrated permanently or duplicated on other machines, in order to minimize the number of communications between the machines. This is done through a behavioral strategy of game theory in which machines seek to optimize their communications rate while maintaining load balancing between machines using predefined thresholds for each machine. This allows an application to optimize its behavior by combining its execution experiences, and thanks to the use of graph-oriented databases, the next executions of the application will be made from the improvements previously gained.		
+		\endgroup
+		\vskip1mm
+		{\textbf{Keywords : }
+			\begingroup			
+			Petri Net, Parallel Computing, Distributed Kripke Structure, Distributed Model Checking, State Space Distribution,	State Space Generation, Optimization Methods, Game Theory.
+			\endgroup
+		}
+    \end{minipage}    
+\end{changemargin}

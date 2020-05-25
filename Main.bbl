@@ -1,0 +1,252 @@
+\begin{thebibliography}{34}
+% this bibliography was produced with the style dinat.bst v2.5
+\makeatletter
+\newcommand{\dinatlabel}[1]%
+{\ifNAT@numbers\else\NAT@biblabelnum{#1}\hspace{2\labelsep}\fi}
+\makeatother
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\expandafter\ifx\csname url\endcsname\relax\def\url#1{\texttt{#1}}\fi
+
+\bibitem[{Adat} u.\,a.(2017){Adat}, {Gupta} und {Yamaguchi}]{8355541}
+\dinatlabel{{Adat} u.\,a. 2017} \textsc{{Adat}}, V.~; \textsc{{Gupta}}, B.~B.~;
+  \textsc{{Yamaguchi}}, S.:
+\newblock Risk transfer mechanism to defend DDoS attacks in IoT scenario.
+\newblock
+\newblock (2017), S.~37--40
+
+\bibitem[Al-Fuqaha u.\,a.(2015)Al-Fuqaha, Guizani, Mohammadi, Aledhari und
+  Ayyash]{al2015iot}
+\dinatlabel{Al-Fuqaha u.\,a. 2015} \textsc{Al-Fuqaha}, Ala~; \textsc{Guizani},
+  Mohsen~; \textsc{Mohammadi}, Mehdi~; \textsc{Aledhari}, Mohammed~;
+  \textsc{Ayyash}, Moussa:
+\newblock Internet of things: A survey on enabling technologies, protocols, and
+  applications.
+\newblock In: \emph{IEEE communications surveys \& tutorials}
+\newblock 17 (2015), Nr.~4, S.~2347--2376
+
+\bibitem[Atzori u.\,a.(2010)Atzori, Iera und Morabito]{atzori2010iot}
+\dinatlabel{Atzori u.\,a. 2010} \textsc{Atzori}, Luigi~; \textsc{Iera},
+  Antonio~; \textsc{Morabito}, Giacomo:
+\newblock The internet of things: A survey.
+\newblock In: \emph{Computer networks}
+\newblock 54 (2010), Nr.~15, S.~2787--2805
+
+\bibitem[Bruneau(2020)]{refids}
+\dinatlabel{Bruneau 2020} \textsc{Bruneau}, Guy:
+\newblock The History and Evolution of Intrusion Detection.
+\newblock In: \emph{SANS Institute Information Security Reading Room}
+\newblock (2020), April. --
+\newblock URL
+  \url{https://www.sans.org/reading-room/whitepapers/detection/history-evolution-intrusion-detection-344}
+
+\bibitem[Buckley()]{ref451rec}
+\dinatlabel{Buckley } \textsc{Buckley}, Kaitlin:
+\newblock \emph{Survey finds security continues to be top priority in deploying
+  IoT projects}. --
+\newblock URL
+  \url{https://451research.com/blog/1934-survey-finds-security-continues-to-be-top-priority-in-deploying-iot-projects}
+
+\bibitem[Challal(2012)]{challal2012securite}
+\dinatlabel{Challal 2012} \textsc{Challal}, Yacine:
+\newblock \emph{S{\'e}curit{\'e} de l'Internet des Objets: vers une approche
+  cognitive et syst{\'e}mique}, Dissertation, 2012
+
+\bibitem[Dave(2011)]{cisco}
+\dinatlabel{Dave 2011} \textsc{Dave}, Evans:
+\newblock The Internet of Things How the Next Evolution of the Internet Is
+  Changing Everything.
+\newblock In: \emph{Cisco Internet Business Solutions Group (IBSG)}
+\newblock (2011), Avril
+
+\bibitem[Department(2020)]{statista2020iot}
+\dinatlabel{Department 2020} \textsc{Department}, Statista~R.:
+\newblock \emph{Number of internet of things (IoT) connected devices worldwide
+  in 2018, 2025 and 2030}.
+\newblock 2020. --
+\newblock URL
+  \url{https://www.statista.com/statistics/802690/worldwide-connected-devices-by-access-technology/}
+
+\bibitem[Elike~Hodo(2016)]{refidsd}
+\dinatlabel{Elike~Hodo 2016} \textsc{Elike~Hodo}, Andrew~H.:
+\newblock Threat analysis of IoT networks Using Artificial Neural Network
+  Intrusion Detection System.
+\newblock In: \emph{Department of Electronic Electrical Engineering University
+  of Strathclyde Glasgow G1 1XW UK}
+\newblock (2016), April. --
+\newblock URL \url{https://arxiv.org/ftp/arxiv/papers/1704/1704.02286.pdf}
+
+\bibitem[Hu(2016)]{hu2016security}
+\dinatlabel{Hu 2016} \textsc{Hu}, Fei:
+\newblock \emph{Security and privacy in Internet of things (IoTs): Models,
+  Algorithms and Implementations}.
+\newblock CRC Press, 2016. --
+\newblock ISBN 978-1-4987-2319-0
+
+\bibitem[infosec()]{refinfosec}
+\dinatlabel{infosec } \textsc{infosec}:
+\newblock \emph{Internet of Things: How Much are We Exposed to Cyber Threats?}.
+  --
+\newblock URL
+  \url{https://resources.infosecinstitute.com/internet-things-much-exposed-cyber-threats/}
+
+\bibitem[Jégo(2007)]{refestonie}
+\dinatlabel{Jégo 2007} \textsc{Jégo}, Marie:
+\newblock L'Estonie tire les leçons des cyberattaques massives lancées contre
+  elle pendant la crise avec la Russie.
+\newblock In: \emph{Journal Le Monde}
+\newblock (2007), juin. --
+\newblock URL
+  \url{https://www.lemonde.fr/europe/article/2007/06/27/l-estonie-tire-les-lecons-des-cyberattaques-massives-lancees-contre-elle-pendant-la-crise-avec-la-russie_928568_3214.html}
+
+\bibitem[kaspersky()]{ciscorefiot}
+\dinatlabel{kaspersky } \textsc{kaspersky}:
+\newblock \emph{Internet des objets : qu'est-ce que l'IoT ? IoT Security}. --
+\newblock URL
+  \url{https://www.kaspersky.fr/resource-center/definitions/what-is-iot}
+
+\bibitem[kaspersky.()]{ref8}
+\dinatlabel{kaspersky. } \textsc{kaspersky.}:
+\newblock \emph{what-is-cyber-security}. --
+\newblock URL
+  \url{https://www.kaspersky.fr/resource-center/definitions/what-is-cyber-security.
+  kaspersky.fr.}
+
+\bibitem[kaspersky(2020)]{ref13}
+\dinatlabel{kaspersky 2020} \textsc{kaspersky}:
+\newblock \emph{what-is-ransomware.}
+\newblock 2020. --
+\newblock URL
+  \url{https://www.kaspersky.fr/resource-center/definitions/what-is-ransomware.}
+
+\bibitem[Krigman(2018)]{krigman2018agriculture}
+\dinatlabel{Krigman 2018} \textsc{Krigman}, A.:
+\newblock \emph{Bétail connecté, contrôle des récoltes, drones...
+  l’Internet des Objets transforme l’agriculture à grande vitesse}.
+\newblock 2018. --
+\newblock URL
+  \url{https://www.globalsign.fr/fr/blog/l-iot-ameliore-l-agriculture-avec-le-betail-connecte-et-les-drones/}
+
+\bibitem[Locqueneux(2015)]{locqueneux2015domotique}
+\dinatlabel{Locqueneux 2015} \textsc{Locqueneux}, Cédric:
+\newblock \emph{La domotique, c'est quoi ?}
+\newblock 2015. --
+\newblock URL
+  \url{https://www.maison-et-domotique.com/47895-la-domotique-cest-quoi/}
+
+\bibitem[MARWA(2016)]{ref9}
+\dinatlabel{MARWA 2016} \textsc{MARWA}, Ahmim:
+\newblock \emph{Etude du protocole IPSEC et metriques de sécurité},
+  Université BADJI MOKHTAR ANNABA, Dissertation, 2016
+
+\bibitem[Muhammad~Aamir1(2019)]{refados}
+\dinatlabel{Muhammad~Aamir1 2019} \textsc{Muhammad~Aamir1}, Ali~Z.:
+\newblock DDoS attack detection with feature engineering and machine
+  learning:the framework and performance evaluation.
+\newblock In: \emph{International Journal of Information Security}
+\newblock (2019), Avril, S.~2
+
+\bibitem[pandasecurity()]{ref1112}
+\dinatlabel{pandasecurity } \textsc{pandasecurity}:
+\newblock \emph{types-de-cybercriminalite}. --
+\newblock URL
+  \url{https://www.pandasecurity.com/france/mediacenter/securite/types-de-cybercriminalite/}
+
+\bibitem[Pardes(2020)]{pardes2020iot}
+\dinatlabel{Pardes 2020} \textsc{Pardes}, Arielle:
+\newblock \emph{The WIRED Guide to the Internet of Things}.
+\newblock 2020. --
+\newblock URL \url{https://www.wired.com/story/wired-guide-internet-of-things/}
+
+\bibitem[Patel u.\,a.(2016)Patel, Patel u.\,a.]{patel2016iot}
+\dinatlabel{Patel u.\,a. 2016} \textsc{Patel}, Keyur~K.~; \textsc{Patel},
+  Sunil~M. u.\,a.:
+\newblock Internet of things-IOT: definition, characteristics, architecture,
+  enabling technologies, application \& future challenges.
+\newblock In: \emph{International journal of engineering science and computing
+  (IJESC)}
+\newblock 6 (2016), Nr.~5
+
+\bibitem[Perakovic u.\,a.(2015)Perakovic, Periša und Cvitić]{inproceedings}
+\dinatlabel{Perakovic u.\,a. 2015} \textsc{Perakovic}, Dragan~;
+  \textsc{Periša}, Marko~; \textsc{Cvitić}, Ivan:
+\newblock Analysis of the IoT Impact on Volume of DDoS Attacks.
+\newblock
+\newblock (2015), 12, S.~1
+
+\bibitem[ROSE(2000)]{ref10}
+\dinatlabel{ROSE 2000} \textsc{ROSE}, Colin:
+\newblock \emph{Discours prononcé lors de l’ouverture du G-8 sur la
+  cybercriminalité, Paris}.
+\newblock 2000. --
+\newblock Discours
+
+\bibitem[futura sciences(2020)]{ref14}
+\dinatlabel{futura sciences 2020} \textsc{sciences} futura:
+\newblock \emph{informatique-attaque-man-in-middle-10048.}
+\newblock 2020. --
+\newblock URL
+  \url{https://www.futura-sciences.com/tech/definitions/informatique-attaque-man-in-middle-10048/}
+
+\bibitem[Solange(2019)]{ref4}
+\dinatlabel{Solange 2019} \textsc{Solange}, Ghernaouti:
+\newblock \emph{Cybersécurité Analyser les risques Mettre en œuvre les
+  solutions}.
+\newblock DUNOD, 2019
+
+\bibitem[statista(2020)]{refstatic}
+\dinatlabel{statista 2020} \textsc{statista}:
+\newblock \emph{Internet of Things (IoT) connected devices installed base
+  worldwide from 2015 to 2025}.
+\newblock 2020. --
+\newblock URL
+  \url{https://www.statista.com/statistics/471264/iot-number-of-connected-devices-worldwide/}
+
+\bibitem[ssi.ac strasbourg.fr.()]{ref5}
+\dinatlabel{ssi.ac strasbourg.fr. } \textsc{strasbourg.fr.} ssi.ac:
+\newblock \emph{lidentification-et-lauthentification}. --
+\newblock URL
+  \url{https://ssi.ac-strasbourg.fr/bonnes-pratiques/recommandations/lidentification-et-lauthentification/}
+
+\bibitem[Strawbridge()]{refddos}
+\dinatlabel{Strawbridge } \textsc{Strawbridge}, Geraldine:
+\newblock 10 Biggest DDoS Attacks and how your organisation can learn from
+  them.
+\newblock In: \emph{metacompliance}. --
+\newblock URL
+  \url{https://www.metacompliance.com/blog/10-biggest-ddos-attacks-and-how-your-organisation-can-learn-from-them/}
+
+\bibitem[Sundmaeker u.\,a.(2010)Sundmaeker, Guillemin, Friess und
+  Woelffl{\'e}]{sundmaeker2010vision}
+\dinatlabel{Sundmaeker u.\,a. 2010} \textsc{Sundmaeker}, Harald~;
+  \textsc{Guillemin}, Patrick~; \textsc{Friess}, Peter~; \textsc{Woelffl{\'e}},
+  Sylvie:
+\newblock Vision and challenges for realising the Internet of Things.
+\newblock In: \emph{Cluster of European Research Projects on the Internet of
+  Things, European Commision}
+\newblock 3 (2010), Nr.~3, S.~34--36
+
+\bibitem[Vermesan u.\,a.(2014)Vermesan, Friess u.\,a.]{vermesan2014iot}
+\dinatlabel{Vermesan u.\,a. 2014} \textsc{Vermesan}, Ovidiu~; \textsc{Friess},
+  Peter u.\,a.:
+\newblock \emph{Internet of things-from research and innovation to market
+  deployment}. Bd.~29.
+\newblock River publishers Aalborg, 2014
+
+\bibitem[Wiener(1948)]{cybernetics}
+\dinatlabel{Wiener 1948} \textsc{Wiener}, Norbert:
+\newblock \emph{Cybernetics or Control and Communication in the Animal and the
+  Machines}.
+\newblock 1948
+
+\bibitem[William(1984)]{neuromacer}
+\dinatlabel{William 1984} \textsc{William}, Gibson:
+\newblock \emph{Neuromancer}.
+\newblock Ace, 1984
+
+\bibitem[Zhang~Hang(2013)]{refdiot}
+\dinatlabel{Zhang~Hang 2013} \textsc{Zhang~Hang}, Han~M.:
+\newblock BUSINESS INTELLIGENCE ARCHITECTURE BASED ON INTERNET OF THINGS.
+\newblock In: \emph{Journal of Theoretical and Applied Information Technology}
+\newblock (2013), April
+
+\end{thebibliography}

@@ -1,0 +1,172 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%           Commandes perso            %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\alp}{\texorpdfstring{\ensuremath{\upalpha}\xspace}{alpha }}
+\newcommand{\bet}{\texorpdfstring{\ensuremath{\upbeta}\xspace}{b\'{e}ta }}
+\newcommand{\alpbet}{\texorpdfstring{\ensuremath{\upalpha-\upbeta}\xspace}{alpha-b\'{e}ta}}
+\newcommand{\alpt}{\ensuremath{\alpha_2}\xspace}
+\newcommand{\strt}{\gls{strt}\xspace}
+% Tenseur des déformation cylindrique
+\newcommand{\epsrr}{\ensuremath{\varepsilon_{rr}}\xspace}
+\newcommand{\epstt}{\ensuremath{\varepsilon_{\theta\theta}}\xspace}
+\newcommand{\epszz}{\ensuremath{\varepsilon_{zz}}\xspace}
+\newcommand{\epsrt}{\ensuremath{\varepsilon_{r\theta}}\xspace}
+\newcommand{\epstz}{\ensuremath{\varepsilon_{\theta z}}\xspace}
+\newcommand{\epszr}{\ensuremath{\varepsilon_{zr}}\xspace}
+\newcommand{\matlab}{\textsc{Matlab}\texttrademark\xspace}
+%% Figures centrées, et en position 'here, top, bottom or page'
+\newenvironment{figureth}{%
+		\begin{figure}[htbp]
+			\centering
+	}{
+		\end{figure}
+		}		
+%% Tableaux centrés, et en position 'here, top, bottom or page'
+\newenvironment{tableth}{%
+		\begin{table}[h]
+			\centering
+			%\rowcolors{1}{coleurtableau}{coleurtableau}
+	}{
+		\end{table}
+		}
+%% Sous-figures centrées, en position 'top'		
+\newenvironment{subfigureth}[1]{%
+	\begin{subfigure}[t]{#1}
+	\centering
+}{
+	\end{subfigure}
+}
+\newcommand{\citationChap}[2]{%
+	\epigraph{\og \textit{#1} \fg{}}{#2}
+}
+%% On commence par une page impaire quand on change le style de numérotation de pages 
+%\let\oldpagenumbering\pagenumbering
+%\renewcommand{\pagenumbering}[1]{%
+%	\cleardoublepage
+%	\oldpagenumbering{#1}
+%}
+\newcommand{\mcd}{model checking distribué}
+\newcommand{\mc}{model checking}
+\newcommand{\border}{\emph{Border}}
+\newcommand{\ssti}{Search\_ States\_ To\_ Impor}
+\newcommand{\notifier}{\emph{Notifier}}
+\newcommand{\bn}{\emph{\border{} et \notifier{}}}
+\newcommand{\ei}{Etat Interne}
+\newcommand{\CDS}{CDS}
+\newcommand{\saidouni}{Pr. Djamel Eddine SAIDOUNI}
+\newcommand{\bouneb}{Dr. Bouneb Zine El Abidine}
+\newcommand{\CDSDef}{Comportemental Distribution States}
+\newcommand{\ee}{Etat Externe}
+\newcommand{\deplacer}{déplacer}
+\newcommand{\dupliquer}{dupliquer}
+\newcommand{\parametreone}{\alpha}
+
+\newcommand{\parametretwo}{\beta}
+\newcommand{\parametretree}{\gamma}
+\newcommand{\parametrefive}{\delta}
+\newcommand{\parametrefour}{\gamma m}
+\newcommand{\ministere}{R\'{e}publique  Alg\'{e}rienne D\'{e}mocratique et Populaire\\Minist\'{e}re de  l'enseignement Sup\'{e}rieur et de la Recherche Scientifique\\Université Constantine 2 – Abdelhamid Mehri \\Faculté des Nouvelles Technologies de l'Information et la Communication Département d’Informatique Fondamentale et ses Applications}
+\newcommand{\sneuf}{\og S9 \fg{}}
+\newcommand{\s}[1]{\og #1 \fg{}}
+\newcommand{\mone}{\og machine 1 \fg{}}
+\newcommand{\mi}{\og machine i \fg{}}
+\newcommand{\mj}{\og machine j \fg{}}
+\newcommand{\mtwo}{\og machine 2 \fg{}}
+\newcommand{\mtree}{\og machine 3 \fg{}}
+\newcommand{\curenti}{curent_{iteration}}
+\usepackage{amsmath,amsthm}
+\usepackage{thmtools}
+\theoremstyle{remark}
+\newtheorem{Exemple}{Exemple}[section]
+\newtheorem{theorem}{Theorem}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Définition}
+\newtheorem{etape}[theorem]{Étape}
+\newcommand{\mysection}[2][]
+   {\section[#1]
+     {\centering #2}
+       \setcounter{figure}{0}
+       \renewcommand{\thefigure}{\thesection.\arabic{figure}} %Arabic figures
+       \renewcommand{\thesection}{\Roman{section}}               %Roman numeral title
+}
+\newcommand{\mysectionNoNumerotation}[2][]
+   {\section[#1]
+     {#2}
+       \renewcommand{\thesection}{{section}}               %Roman numeral title
+}
+\setcounter{secnumdepth}{3} 
+%Subsections do not get centered
+\allowdisplaybreaks
+\newcommand{\mysubsection}[2][]
+{\renewcommand*{\thesubsubsection}{\thesubsection.\alph{subsubsection}}
+\subsubsection[#1]{#2} 
+}
+\newcommand{\sectionbreak}{\clearpage}
+\algnewcommand\algorithmicforeach{\textbf{for each}}
+\algdef{S}[FOR]{ForEach}[1]{\algorithmicforeach\ #1\ \algorithmicdo}
+
+%\SetNlSty{}{}{}
+\let\oldnl\nl% Store \nl in \oldnl
+\newcommand\nonl{%
+  \renewcommand{\nl}{\let\nl\oldnl}}% Remove line number for one line
+\usepackage{float}
+\floatstyle{ruled}
+\newfloat{function}{thp}{lop}
+\floatname{function}{Function}
+\newfloat{procedure}{thp}{lop}
+\floatname{procedure}{Procedure}
+\newcommand{\frenchAbstract}[1]{\gdef\@frenchAbstract{#1}} 
+\newcommand{\frenchAbstractKeywords}[1]{\gdef\@frenchAbstractKeywords{#1}} 
+\newcommand{\englishAbstract}[1]{\gdef\@englishAbstract{#1}} 
+\newcommand{\englishAbstractKeywords}[1]{\gdef\@englishAbstractKeywords{#1}} 
+ %================= configuring minitoc ==================%
+%% disabling chapter numbers
+\newcommand{\filterminitoc}[1]{#1}
+\renewcommand{\thesection}{\csname filterminitoc \endcsname{\arabic{chapter}.}\arabic{section}}
+\newcommand{\minitocsection}{\begingroup\renewcommand{\filterminitoc}[1]{}\minitoc\endgroup}
+%=============== Customizing Chapters Names ===============%
+%@author: Stoufa
+%Package pstcol Warning:
+%************************************
+%(pstcol) The package `pstcol' is obsolet!
+%(pstcol) You should use `pstricks' directly:
+%(pstcol) \usepackage{pstricks}
+%(pstcol) ************************************
+%\usepackage{pstcol}
+\usepackage{pstricks}
+\makeatletter
+\def\thickhrulefill{\leavevmode \leaders \hrule height 1.2ex \hfill \kern \z@}
+\def\@makechapterhead#1{
+	\vspace*{30\p@}%
+	{\parindent \z@ \centering \reset@font
+		\thickhrulefill\quad 
+		\scshape\bfseries\textit{\@chapapp{}  \thechapter}  
+		\quad \thickhrulefill
+		\par\nobreak
+		\vspace*{10\p@}%
+		\interlinepenalty\@M
+		\hrule
+		\vspace*{10\p@}%
+		\Huge \bfseries #1 \par\nobreak
+		\par
+		\vspace*{10\p@}%
+		\hrule
+		\vskip 50\p@
+	}
+	\minitocsection
+	\thispagestyle{empty}%
+	\newpage
+}
+\def\@makeschapterhead#1{\hbox{%
+		\huge\hbox{\textbf{#1}}%
+	}\par\vskip 1cm}
+\newenvironment{changemargin}[2]{%
+	\begin{list}{}{%
+			\setlength{\leftmargin}{#1}%
+			\setlength{\rightmargin}{#2}%
+		}%
+		\item[]}
+	{\end{list}}
+
+ 
+ 

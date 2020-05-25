@@ -1,0 +1,26 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%									Chapitre Contribution											%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{Algorithme de distribution d’espace d’états basée sur le comportement des systèmes}
+%	\citationChap{
+%	...
+%	}{...}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ \section{Introduction}
+Dans \citep{Saidouni2012}, \citep{TabibSaidouni2016}, \citep{BENSETIRA2017}, nous avons constaté que les méthodes de génération des espaces d’états pour le model checking consiste  qu’un grand espace d'états non structuré soit divisé en parties de tailles équilibrées, de telle sorte que peu de transitions lient les différentes  parties, car chaque transition externe peut entraîner une surcharge de communication.
+
+Après une étude des espaces d'états générés, nous avons constaté que la diminution de transitions liant les différentes parties peut entraîner un mauvais équilibrage de charge entre les machines du réseau. Outre l’équilibrage de charge, il peut entraîner une mauvaise qualité de distribution de l'espace d'états car lorsqu'une formule du model checking n'est pas vérifiée sur un état la diminution de transitions externes n'empêche pas une surcharge de communication. La qualité de distribution est estimée en fonction de la quantité de communication requise pour l’exécution des tâches distribuées \citep{EzekielLuttgen2008}. Ainsi la réalisation de ces objectifs nécessiterait des informations supplémentaires sur l’espace d’états considéré et les communications engendrées. 
+
+Ces raisons nous ont amené à proposer une nouvelle approche de distribution qui vise à analyser le comportement d’un système donné en générant son espaces d’états et en extrayant les informations pertinentes sur les états et leurs connexions (transitions internes et externes). Ensuite, redistribuer les états pertinents selon une stratégie comportementale de la théorie de jeux afin d’optimiser les performances du système. Les machines sont considérées comme des joueurs, chaque machine cherche à optimiser ces performances en définissant une bonne localité pour un état pertinent tout en optimisant l’équilibre de charge et le taux de communications entre les machines.
+ 
+Dans ce qui suit nous présentons la nouvelle politique de redistribution de l’espace d’états basée sur le comportement du système ainsi que les résultats obtenus. 
+ 
+\input{contribution/Politiquedistribution} 
+\input{contribution/Section5}
+\input{contribution/Etudeexperimentale}
+
+\section{Conclusion}
+Dans ce chapitre, nous avons présenté une nouvelle approche pour la distribution de l’espace d'états basée sur le comportement du système analysé. L’approche proposée vise à améliorer la distribution de l'espace d'états qui sera bénéfique pour le model checking car elle entraine moins de communications entre les machines. L’approche proposée analyse le comportement d’un système donné, et extrait les informations pertinentes sur ses états. Ensuite, les états sont redistribués suite à leurs pertinences soit migrés définitivement soit dupliqués sur d’autres machines, afin de minimiser le nombre de communications entre les machines. La machine réceptrice de ces états est choisie suite à une stratégie comportementale de la théorie jeux où chaque machine cherche à minimiser le taux de ses communications tout en maintenant un bon équilibrage des états entre les machines à l’aide des seuils prédéfinis pour chaque machine.
+
+L’approche proposée peut être adoptée à tout autre spécification formelle ou modèles d'analyse de données car il est pratiquement possible de la formalisée comme un graphe. 
